@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/reactapp">
       <React.StrictMode>
         <PersistGate persistor={persistor}>
           <App />
